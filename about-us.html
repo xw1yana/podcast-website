@@ -1,0 +1,46 @@
+<!--Hrabar Yana-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us Page | Echowave Radio Station</title>
+    <link rel="shortcut icon" href="img/favicon-96.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/about-us.css" />
+    <script src="https://unpkg.com/htmx.org@1.9.10"></script>
+  </head>
+    <header>
+        <nav data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="global.nav.partial.html"></nav>
+        <div data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="about-us.header-hero.partial.html"></div>
+    </header>
+    <main>
+      <!--Mark Kozhydlo -->
+
+      <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="about-us.vision-mission.partial.html"></section>
+
+      <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="about-us.join-community.partial.html"></section>
+
+      <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="about-us.carousel.html"></section>
+
+      <!-- Mark Kozhydlo -->
+
+      <!-- Pavlo Demchenko & Oleksandr Braiko -->
+      <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="about-us.team.partial.html" id="team"></section>
+      <!-- Pavlo Demchenko & Oleksandr Braiko -->
+
+      <!-- Pavlo Demchenko & Oleksandr Braiko -->
+      <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="about-us.footer-hero.partial.html"></section>
+      <!-- Pavlo Demchenko & Oleksandr Braiko -->
+    </main>
+
+    <!-- Dmytro Chornobryvets -->
+    <footer>
+      <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="global.footer.partial.html"></section>
+    </footer>
+    <!-- Dmytro Chornobryvets -->
+  <script src="js/about-us.js"></script>
+</body>
+
+</html>
+<!--Hrabar Yana-->

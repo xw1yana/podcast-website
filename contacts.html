@@ -1,0 +1,35 @@
+<!--Petykchachnyi Olexii-->
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacts | Echowave Radio Station</title>
+    <link rel="shortcut icon" href="img/favicon-96.png" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/htmx.org@1.9.10"></script>
+    <link rel="stylesheet" href="css/contacts.css">
+</head>
+
+
+<body>
+    <header>
+        <nav data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="global.nav.partial.html"></nav>
+        <div data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="contacts.header-hero.partial.html"></div>
+        <div data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="contacts.register.partial.html"></div>
+    </header>
+    <main>
+
+    </main>
+
+    <!-- Dmytro Chornobryvets -->
+    <footer>
+      <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="global.footer.partial.html"></section>
+    </footer>
+    <!-- Dmytro Chornobryvets -->
+     <script src="js/contacts.js" type="module"></script>
+</body>
+
+</html>

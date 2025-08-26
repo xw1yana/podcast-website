@@ -1,0 +1,233 @@
+/* Oleksandr Braiko             */
+
+.podcast-about__container {
+    max-width: 1200px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 24px;
+    margin: auto;
+
+    @media (min-width: 768px) {
+        padding: 0 32px;
+    }
+
+    @media (min-width: 1024px) {
+        padding: 0 15px;
+    }
+
+    .podcast-about__wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        @media (min-width: 768px) {
+            flex-direction: row;
+        }
+
+        .podcast-about__title {
+            width: 100%;
+            padding: 0 20px 0 20px;
+
+            @media (min-width: 768px) {
+                width: 42%;
+            }
+
+            .podcast-about__title__star {
+                color: var(--accent-color-two);
+                font-size: 34px;
+                font-family: var(--font-title);
+            }
+
+            .podcast-about__title__text {
+                color: var(--text-color-secondary);
+                margin: 25px 0 40px 0;
+                text-transform: uppercase;
+                text-align: justify;
+                font-weight: 700;
+                font-size: 12px;
+                letter-spacing: 1.2px;
+            }
+        }
+
+        .podcast-about__text {
+            width: 100%;
+            color: var(--text-color-secondary);
+            font-size: 16px;
+            padding: 0 20px 0 20px;
+
+            @media (min-width: 768px) {
+                width: 58%;
+                font-size: 16px;
+            }
+        }
+    }
+
+    .podcast-about__divider {
+        margin: 50px 0 0 0;
+    }
+
+    .podcast-about__episodes__wrapper {
+        margin: 55px 0 0 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        @media (min-width: 768px) {
+            flex-direction: row;
+        }
+
+        .podcast-about__episodes__title {
+            width: 100%;
+            color: var(--text-color-secondary);
+            padding: 0 20px 0 20px;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 12px;
+            letter-spacing: 1.2px;
+            margin: 0 0 40px 0;
+
+            @media (min-width: 768px) {
+                width: 42%;
+            }
+        }
+
+        .podcast-about__episodes__list {
+            padding: 0;
+            width: 100%;
+            margin: 0;
+
+            @media (min-width: 768px) {
+                width: 58%;
+                padding: 0 20px;
+            }
+
+            .podcast-about__episodes__item {
+                .item__meta {
+                    color: var(--text-color-title);
+                    font-size: 15px;
+                    font-weight: bold;
+                    margin: 0 0 16px 0;
+                    /*height: 24px;*/
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+
+                    @media (min-width: 321px) {
+                        flex-direction: row;
+                    }
+
+                    .item__date {
+                        padding: 0 24px 0 0;
+                        margin: 0 0 16px 0;
+                        height: 24px;
+                        display: block;
+
+                        @media (min-width: 320px) {
+                            display: inline-block;
+                        }
+
+                        .item__date-icon {
+                            color: var(--accent-color-three);
+                            margin: 0 0 -6px 0;
+                            width: 20px;
+                            height: 24px;
+                        }
+
+                        .item__date-text {
+                            margin: 0 0 0 4px;
+                            height: 24px;
+                        }
+                    }
+
+                    .item__author {
+                        padding: 0 12px 0 0;
+                        margin: 0 0 16px 0;
+                        height: 24px;
+                        display: block;
+
+                        @media (min-width: 320px) {
+                            display: inline-block;
+                        }
+
+                        .item__author-icon {
+                            color: var(--accent-color-three);
+                            margin: 0 0 -6px 0;
+                            width: 20px;
+                            height: 24px;
+                        }
+
+                        .item__author-text {
+                            margin: 0 0 0 4px;
+                            height: 24px;
+                        }
+                    }
+                }
+
+                .item__title {
+                    color: var(--text-color-title);
+                    margin: 20px 0 0 0;
+                    font-size: 18px;
+
+                    @media (min-width: 375px) {
+                        font-size: 21px;
+                    }
+
+                    .item__title-chapter {
+                        font-weight: bold;
+                    }
+                }
+
+                .item__about {
+                    margin: 25px 0 0 0;
+                    color: var(--text-color-secondary);
+                }
+
+                .item__button {
+                    height: 42px;
+                    width: 195px;
+                    margin: 35px 0 0 0;
+                    background-image: linear-gradient(
+                            45deg,
+                            var(--accent-color-one),
+                            var(--accent-color-four)
+                    );
+                    font-weight: bold;
+                    font-size: 14px;
+                    text-transform: capitalize;
+                    letter-spacing: 1.1px;
+                    display: inline-block;
+                    border: none;
+                    padding: 3px 15px;
+                    text-align: center;
+                    border-radius: 21px;
+                    text-decoration: none;
+                    color:var(--text-color-title);
+
+                    &:hover {
+                        background-image: linear-gradient(
+                                45deg,
+                                var(--accent-color-four),
+                                var(--accent-color-one)
+
+                        );
+                        cursor: pointer;
+                    }
+
+                    .item__button-icon {
+                        position: relative;
+                        top: 6px;
+                        width: 24px;
+                        height: 24px;
+                    }
+
+                }
+
+                .item__spacer {
+                    height: 80px;
+                }
+            }
+        }
+    }
+}
+

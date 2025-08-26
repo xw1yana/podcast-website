@@ -1,0 +1,29 @@
+<!--Viktoriia Remeniuk-->
+<section class="popular-songs" id="popular-songs">
+  <figure class="popular-songs__media">
+    <img
+      class="popular-songs__image"
+      src="img/popular-songs.png"
+      alt="Two podcast hosts having a conversation in a studio"
+    />
+  </figure>
+  <div class="popular-songs__info">
+    <div class="popular-songs__tag">
+      <span class="popular-songs__label">Popular Songs</span>
+    </div>
+    <p class="popular-songs__description">
+      Explore our <a href="#popular-songs-list" class="popular-songs__highlight">best songs</a> of the week, from rap to jazz.
+      Work, dance, and dream with us.
+    </p>
+  </div>
+
+  <ul class="popular-songs__list" id="popular-songs-list"></ul>
+
+  <!-- JS підключення через HTMX -->
+  <div
+    data-hx-trigger="load"
+    data-hx-get="index.popular-songs.script.js"
+    data-hx-swap="none"
+  ></div>
+</section>
+<!--Viktoriia Remeniuk-->

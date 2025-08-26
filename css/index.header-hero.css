@@ -1,0 +1,162 @@
+.listen-now {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+
+.listen-now__row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+
+.listen-now__column {
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.listen-now__column--center {
+  align-items: center;
+  text-align: center;
+}
+
+.listen-now__title {
+  font-size: 60px;
+  font-weight: 800;
+  margin: 0 0 24px 0;
+  color: var(--text-color-title);
+}
+
+.listen-now__subtitle {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0 0 20px 0;
+}
+
+.listen-now__description {
+  color: var(--text-color-secondary);
+  max-width: 400px;
+  margin: 0;
+}
+
+.listen-now__slogan {
+  font-size: 16px;
+  margin: 0;
+  color: var(--text-color-title);
+}
+
+.listen-now__slogan-line {
+  width: 100px;
+  height: 4px;
+  background-color: var(--accent-color-three);
+  margin: 0 auto;
+}
+
+.listen-now__fm-icon {
+  width: 50px;
+  color: var(--accent-color-two);
+  height: auto;
+  margin: 60px 0 0;
+}
+
+/*.listen-now__fm-icon {
+  width: 30px;
+  height: auto;
+  margin: 10px 0 0;
+}*/
+
+.listen-now__frequency {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+}
+
+.listen-now__logo {
+  margin: 0;
+  font-weight: bold;
+  color: white;
+}
+
+.listen-now__logo--big {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.listen-now__logo-star {
+  color: var(--accent-color-three);
+  font-size: 68px;
+  margin-bottom: 10px;
+  font-weight: 800;
+}
+
+.listen-now__podcast-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-color-title);
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.listen-now__podcast-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 40px;
+}
+
+.listen-now__podcast-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.listen-now__podcast-item img {
+  width: 20px;
+  height: 20px;
+}
+
+.listen-now__podcast-link {
+  font-size: 16px;
+  color: var(--text-color-title);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.listen-now__podcast-link:hover {
+  color: var(--music-genre-hover-color);
+}
+@media (max-width: 600px) {
+  .listen-now__podcast-list {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .listen-now__title {
+    font-size: 36px;
+  }
+
+  .listen-now__logo--big {
+    font-size: 32px;
+  }
+
+  .listen-now__logo-star {
+    font-size: 48px;
+  }
+
+  .listen-now__frequency {
+    font-size: 24px;
+  }
+}

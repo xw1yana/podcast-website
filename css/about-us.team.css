@@ -1,0 +1,195 @@
+/* Pavlo Demchenko & Oleksandr Braiko */
+
+.about-us__team-container {
+    max-width: 1200px;
+    margin: 120px auto 0;
+
+    .about-us__team-wrapper {
+
+        .team__header__wrapper {
+            display: flex;
+            flex-direction: row;
+            padding: 0 15px;
+
+            @media (max-width: 768px) {
+                flex-direction: column;
+            }
+
+            .team__header__title-box {
+                display: flex;
+                flex-direction: column;
+                flex: 0 0 50%;
+
+                .team__header__sub-title {
+                    color: var(--text-color-primary);
+                    font-size: 12px;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                }
+
+                .team__header__title {
+                    color: var(--text-color-title);
+                    font-family: var(--font-title);
+                    font-size: 38px;
+                    font-weight: normal;
+                    margin: 20px 0 0 0;
+                }
+            }
+
+            .team__header__text-box {
+                flex: 0 0 50%;
+                color: var(--text-color-secondary);
+                font-size: 19px;
+                vertical-align: middle;
+                align-content: space-evenly;
+
+                @media (max-width: 768px) {
+                    margin: 50px 0 0 0;
+                }
+            }
+        }
+
+        .team__carousel__wrapper {
+            display: flex;
+            flex-direction: row;
+
+            .team__carousel-button {
+                background: none;
+                border: none;
+                color: var(--text-color-secondary);
+                font-size: 36px;
+                cursor: pointer;
+                padding: 0;
+                transition: color 0.3s;
+                z-index: 2;
+
+                .team__carousel-button-icon--prev {
+                    color: var(--text-color-secondary);
+                    border-radius: 50%;
+                    width: 30px;
+                    height: 30px;
+                    transition: color 0.3s;
+                    transform: scaleX(-1);
+
+                    &:hover {
+                        color: var(--text-color-title);
+                    }
+
+                    @media (max-width: 1024px) {
+                        position: relative;
+                        left: 10px;
+                        width: 30px;
+                        height: 30px;
+                        padding: 5px;
+                        background-color: rgba(0, 0, 0, 0.8);
+                    }
+                }
+
+                .team__carousel-button-icon--next {
+                    color: var(--text-color-secondary);
+                    transform: scaleX(1);
+                    border-radius: 50%;
+                    width: 30px;
+                    height: 30px;
+                    transition: color 0.3s;
+
+                    &:hover {
+                        color: var(--text-color-title);
+                    }
+
+                    @media (max-width: 1024px) {
+                        position: relative;
+                        right: 10px;
+                        width: 30px;
+                        height: 30px;
+                        padding: 5px;
+                        background-color: var(--carousel-button-bg-color);
+                    }
+                }
+            }
+
+            .team__carousel {
+                display: flex;
+                flex-direction: row;
+                position: relative;
+                overflow: hidden;
+                margin: 50px auto 0;
+                width: 94%;
+
+                .team__carousel__list {
+                    max-width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    transition: transform 0.5s ease-in-out;
+
+                    .team__carousel__item {
+                        flex: 0 0 100%;
+                        padding: 0 15px;
+                        height: 100%;
+
+                        @media (min-width: 768px) {
+                            flex: 0 0 50%;
+                        }
+
+                        @media (min-width: 1024px) {
+                            flex: 0 0 25%;
+                        }
+
+                        .item__wrapper {
+                            background-color: var(--feature-element-bg-color);
+                            padding: 15px 15px;
+                            height: 100%;
+                            display: flex;
+                            flex-direction: column;
+
+                            .item__image-box {
+
+                                .item__image {
+                                    width: 100%;
+                                    aspect-ratio: 233/223;
+                                    object-fit: cover;
+                                    object-position: 33% 5%;
+                                }
+                            }
+
+                            .item__name {
+                                font-size: 24px;
+                                margin: 20px 0 0 0;
+                                font-weight: bold;
+                                color: var(--text-color-title);
+                            }
+
+                            .item__socials-box {
+                                margin:30px 0 0 0;
+
+                                .item__socials-list {
+                                    display: flex;
+                                    flex-direction: row;
+
+                                    .item__socials-list__item {
+                                        margin: 0 7px;
+
+                                        .item__socials-list__link {
+                                            cursor: pointer;
+
+                                            .item__socials-list__icon {
+                                                width: 30px;
+                                                height: 30px;
+                                                fill: var(--text-color-title);
+                                                transition: fill 0.3s;
+
+                                                &:hover {
+                                                    fill: var(--icon-bg-hover-color);
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

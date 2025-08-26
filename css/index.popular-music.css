@@ -1,0 +1,116 @@
+/* Oleksandra Honcharova */
+.popular_music {
+    max-width: 1170px;
+    margin: 20px 20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    padding-bottom: 60px;
+    padding-top: 20px;
+    display: flex;
+}
+
+.popular_music__carousel {
+    display: flex;
+    align-items: center;
+    position: relative;
+    min-width: 320px;
+    word-wrap: break-word;
+    width: 100%;
+}
+
+.popular_music__list {
+    display: flex;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+    will-change: transform;
+}
+
+.popular_music__list::-webkit-scrollbar {
+  display: none;
+}
+
+.popular_music__item {
+   min-width: calc(100% / 4 - 20px);
+    justify-content: space-around;
+    flex: 0 0 auto;
+    color:  var(--text-color-title);
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.popular_music__image {
+  border-radius: 8px;
+  width: 100%;
+  align-content: center;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.popular_music__genre {
+  font-size: 0.875rem;
+  color: var(--accent-color-three);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.popular_music__title {
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+}
+
+.popular_music__artist {
+  font-size: 1rem;
+  opacity: 0.8;
+}
+
+.popular_music__button {
+  position: absolute;
+  width: 30px;               
+  height: 30px;
+  border-radius: 50%;
+  background-color: var( --carousel-button-bg-color);
+  border: none;
+  color: var(--text-color-secondary);
+  cursor: pointer;
+  transition: color 0.3s;
+  z-index: 2;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+}
+
+.popular_music__button--left {
+  left: 0.5rem;
+}
+
+.popular_music__button--right {
+  right: 0.5rem;
+}
+
+.popular_music__icon {
+  width: 1rem;
+  height: 1rem;
+  transition: transform 0.2s;
+}
+
+.popular_music__title {
+  font-size: 1.25rem;
+}
+
+@media (max-width: 991px) {
+  .popular_music__item {
+    min-width: calc(100% / 2 - 20px);
+  }
+}
+@media (max-width: 767px) {
+  .popular_music__item {
+    min-width: 100%;
+  }
+}

@@ -1,0 +1,8 @@
+@import "global.css";
+@import "global.nav.css";               /* Hrabar Yana      */
+@import "podcasts.header-hero.css";     /* Oleksandr Braiko */
+/* insert podcast blocks    */
+@import "podcasts.podcast-block.css"; /* Oleksandr Braiko */
+@import "podcasts.radio-app.css";       /* Andrii Kovalyk   */
+@import "podcasts.about.css";           /* Oleksandr Braiko */
+@import "global.footer.css";            /* Dmytro Chornobryvets */

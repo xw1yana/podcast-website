@@ -1,0 +1,68 @@
+<!-- Mark Kozhydlo -->
+<section class="timeline-carousel">
+	<div class="carousel-wrapper">
+		<button class="carousel-btn left" id="prevBtn">&#8249;</button>
+
+		<div class="carousel-viewport">
+			<div class="carousel" id="carousel">
+				<div class="carousel-item">
+					<h2>2005</h2>
+					<div class="underline purple"></div>
+					<p>Jack Richardson started his own,<br />small radio studio.</p>
+				</div>
+				<div class="carousel-item">
+					<h2>2006</h2>
+					<div class="underline orange"></div>
+					<p>The radio got the TuWave name<br />and started its promo.</p>
+				</div>
+				<div class="carousel-item">
+					<h2>2016</h2>
+					<div class="underline purple"></div>
+					<p>The name was changed to<br />EchoWave by our team.</p>
+				</div>
+				<div class="carousel-item">
+					<h2>2020</h2>
+					<div class="underline blue"></div>
+					<p>
+						We gained popularity due to our<br />podcasts during the pandemic.
+					</p>
+				</div>
+				<div class="carousel-item">
+					<h2>2022</h2>
+					<div class="underline orange"></div>
+					<p>The name was changed to EchoWave by our team.</p>
+				</div>
+			</div>
+		</div>
+
+		<button class="carousel-btn right" id="nextBtn">&#8250;</button>
+	</div>
+
+	<script>
+		const carousel = document.getElementById('carousel')
+		const items = document.querySelectorAll('.carousel-item')
+		const prevBtn = document.getElementById('prevBtn')
+		const nextBtn = document.getElementById('nextBtn')
+
+		let currentIndex = 0
+		const itemWidth = items[0].offsetWidth + 80
+
+		function updateCarousel() {
+			carousel.style.transform = `translateX(-${currentIndex * itemWidth}px)`
+		}
+
+		nextBtn.addEventListener('click', () => {
+			currentIndex = (currentIndex + 1) % items.length
+			updateCarousel()
+		})
+
+		prevBtn.addEventListener('click', () => {
+			currentIndex = (currentIndex - 1 + items.length) % items.length
+			updateCarousel()
+		})
+
+		window.addEventListener('resize', () => {
+			updateCarousel()
+		})
+	</script>
+</section>

@@ -1,0 +1,177 @@
+.broadcast {
+    margin: 0 auto;
+
+    .broadcast__top-genres {
+        padding: 60px 0;
+
+        .top-genres__title {
+            text-align: center;
+            font-size: 12px;
+            font-family: var(--font-regular);
+            color: var(--text-color-primary);
+            letter-spacing: 2px;
+            /*font-style: sants-serif;*/
+            margin-bottom: 30px;
+        }
+
+        .top-genres__list {
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 12px;
+            padding: 0;
+            list-style: none;
+
+            .top-genres__item {
+                font: 56px var(--font-title), cursive;
+                font-weight: bold;
+                color: var(--text-color-title);
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                line-height: 1.1;
+                text-align: center;
+
+                span {
+                    display: inline-block;
+                }
+
+                a:hover {
+                    color: var(--music-genre-hover-color)
+                }
+
+                .top-genres__slash1 {
+                    margin-left: 10px;
+                    color: var(--accent-color-one);
+                }
+
+                .top-genres__slash2 {
+                    margin-left: 10px;
+                    color: var(--accent-color-two);
+
+                }
+
+                .top-genres__slash3 {
+                    margin-left: 10px;
+                    color: var(--accent-color-three);
+                }
+
+                .top-genres__slash4 {
+                    margin-left: 10px;
+                    color: var(--accent-color-four);
+                }
+            }
+        }
+    }
+
+    .broadcast__content {
+        padding: 60px 0;
+        margin: 0 20px 0 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+
+        .broadcast__card {
+            background-image: url('../img/index/about-echowave/microphone.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative;
+            width: 100%;
+
+            .broadcast__info {
+                padding: 30px;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                .broadcast__label {
+                    font-size: 12px;
+                    font-family: var(--font-regular);
+                    color: var(--accent-color-three);
+                    letter-spacing: 2px;
+                    font-weight: 600;
+                }
+
+                .broadcast__title {
+                    font-size: 22px;
+                    font-family: var(--font-regular);
+                    color: var(--text-color-title);
+                    font-weight: 500;
+                }
+
+                .broadcast__text {
+                    font-size: 19px;
+                    font-family: var(--font-regular);
+                    color: var(--text-color-secondary);
+                }
+
+                .broadcast__line-graphic {
+                    width: 60%;
+                }
+
+            }
+
+        }
+
+        .broadcast__about {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            .about__title {
+                font-size: 12px;
+                font-family: var(--font-regular);
+                color: var(--text-color-primary);
+                letter-spacing: 2px;
+                font-weight: 500;
+            }
+
+            .about__headline {
+                font-size: 30px;
+                font-family: var(--font-title);
+                font-weight: 300;
+            }
+
+            .about__description {
+                font-size: 16px;
+                font-family: var(--font-regular);
+                color: var(--text-color-secondary);
+                text-align: justify;
+                font-weight: 300;
+            }
+
+            .about__button {
+                font-size: 14px;
+                font-family: var(--font-regular);
+                color: var(--text-color-title);
+                letter-spacing: 1px;
+                padding: 10px 25px;
+                border-radius: 30px;
+                background-image: linear-gradient(
+                        45deg,
+                        var(--accent-color-one),
+                        var(--accent-color-four));
+
+                &:hover {
+                    background-image: linear-gradient(
+                            45deg,
+                            var(--accent-color-four),
+                            var(--accent-color-one));
+                }
+            }
+        }
+        @media (min-width: 768px) {
+            flex-direction: row;
+            gap: 20px;
+            .broadcast__card, .broadcast__about {
+                width: 50%;
+            }
+
+        }
+        
+    }
+}

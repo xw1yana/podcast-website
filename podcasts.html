@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Podcasts Page | Echowave Radio Station</title>
+    <link rel="shortcut icon" href="img/favicon-96.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/podcasts.css" />
+    <script src="https://unpkg.com/htmx.org@1.9.10"></script>
+  </head>
+  <body>
+    <header>
+    <nav data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="global.nav.partial.html"></nav>
+    
+    <!-- Oleksandr Braiko -->
+    <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="podcasts.header-hero.partial.html"></section>
+    <!-- Oleksandr Braiko -->
+
+</header>
+<main>
+    <!-- Maksym Oleksiv -->
+    <section
+      data-hx-trigger="load"
+      data-hx-swap="outerHTML"
+      data-hx-get="podcasts.podcast-blocks.partial.html"
+    ></section>
+    <!-- Maksym Oleksiv -->
+
+    <!--Andrii Kovalyk-->
+    <section
+      data-hx-trigger="load"
+      data-hx-swap="outerHTML"
+      data-hx-get="podcasts.radio-app.partial.html"
+    ></section>
+    <!--Andrii Kovalyk-->
+
+    <!-- Oleksandr Braiko -->
+    <section
+            data-hx-trigger="load"
+            data-hx-swap="outerHTML"
+            data-hx-get="podcasts.about.partial.html"
+    ></section>
+    <!-- Oleksandr Braiko -->
+</main>
+    <!-- Dmytro Chornobryvets -->
+    <footer>
+      <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="global.footer.partial.html"></section>
+    </footer>
+    <!-- Dmytro Chornobryvets -->
+    <script src="js/podcasts.js"></script>
+  </body>
+</html>

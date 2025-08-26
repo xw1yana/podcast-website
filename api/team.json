@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Harry Jones",
+    "imagePath": "img/about-us/team/harry-jones.webp"
+  },
+  {
+    "name": "Jessica Errington",
+    "imagePath": "img/about-us/team/jessica-errington.webp"
+  },
+  {
+    "name": "Eric Maddoc",
+    "imagePath": "img/about-us/team/eric-maddoc.webp"
+  },
+  {
+    "name": "Amanda Poe",
+    "imagePath": "img/about-us/team/amanda-poe.webp"
+  },
+  {
+    "name": "Diana Ferrington",
+    "imagePath": "img/about-us/team/diana-ferrington.webp"
+  }
+]

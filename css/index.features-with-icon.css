@@ -1,0 +1,107 @@
+.features-with-icon {
+  /* Контейнер фіч-блоку */
+  display: grid;
+  grid-template-columns: 1fr;
+  min-width: 272px;
+  margin: auto;
+  margin-top: 50px;
+  gap: 40px;
+  padding: 0 20px;
+}
+
+.features-with-icon__title-overline {
+  /*лінія яка відділяє блок від попереднього контенту*/
+  display: block;
+  height: 2px;
+  background-color: var(--divider-line-color);
+  margin-bottom: 30px;
+}
+
+.features-with-icon__item {
+  /* Окрема фіча-картка */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.features-with-icon__image-wrapper {
+  /* Кругла рамка навколо іконки */
+  width: 70px;
+  height: 70px;
+  background-color: var(--feature-element-bg-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.features-with-icon__image {
+  /* Зображення-іконка всередині кружечка */
+  width: 40px;
+}
+
+.features-with-icon__title {
+  /* Заголовок кожної фічі */
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.features-with-icon__title-underline {
+  /* Кольорова підкреслююча лінія */
+  display: block;
+  width: 15%;
+  height: 4px;
+  margin-top: 4px;
+}
+
+.features-with-icon__title-underline--web-mobile {
+  /* унікальний колір лінії */
+  background-color: var(--accent-color-one);
+}
+
+.features-with-icon__title-underline--best-music {
+  /* унікальний колір лінії */
+  background-color: var(--accent-color-three);
+}
+
+.features-with-icon__title-underline--interesting-podcasts {
+  /* унікальний колір лінії */
+  background-color: var(--accent-color-two);
+}
+
+.features-with-icon__title-underline--fantastic-hosts {
+  /* унікальний колір лінії */
+  background-color: var(--accent-color-four);
+}
+
+.features-with-icon__description {
+  /* Короткий опис фічі */
+  color: var(--text-color-secondary);
+  line-height: 24px;
+}
+
+@media (min-width: 768px) {
+  .features-with-icon {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0 32px;
+  }
+  .features-with-icon__title-overline {
+    grid-column: 1 / -1;
+  }
+  .features-with-icon__image-wrapper {
+    width: 100px;
+    height: 100px;
+  }
+  .features-with-icon__image {
+    width: 60px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .features-with-icon {
+    padding: 0 40px;
+  }
+  .features-with-icon__title {
+    font-size: 24px;
+  }
+}

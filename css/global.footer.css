@@ -1,0 +1,227 @@
+/* by Dmytro Chornobryvets */
+
+.page-footer {
+  width: 100%;
+  background-color: var(--body-bg-solid-dark);
+  color: var(--text-color-primary);
+}
+
+.page-footer__content-shell {
+  padding: 80px 15px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.page-footer__main-area {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.brand-details {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-right: 40px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    align-items: center;
+    margin-right: 0;
+  }
+}
+
+.brand-details__emblem-wrapper {
+  display: flex;
+  @media (max-width: 768px) {
+  }
+}
+
+.brand-details__emblem {
+  width: 121px;
+  height: auto;
+}
+
+.brand-details__tagline-wrapper {
+  text-align: left;
+  margin-top: 30px;
+
+  @media (max-width: 768px) {
+    text-align: center;
+  }
+}
+
+.brand-details__tagline {
+  font-size: 15px;
+  margin: 0;
+}
+
+.social-connect {
+  margin-top: 30px;
+}
+
+.social-connect__list {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  padding: 0;
+  list-style: none;
+
+  @media (max-width: 768px) {
+    justify-content: center;
+  }
+}
+
+.social-connect__link {
+  text-decoration: none;
+  border: 0;
+  display: inline-block;
+}
+
+.social-connect__icon {
+  width: 30px;
+  height: 30px;
+  color: var(--icon-bg-normal-color);
+  transition: color 0.3s ease;
+  display: block;
+
+  &:hover {
+    color: var(--icon-bg-hover-color);
+    cursor: pointer;
+  }
+}
+
+.navigation-groups {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-weight: 500;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.navigation-groups__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  height: 100%;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.navigation-groups__column {
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+
+  @media (max-width: 768px) {
+    margin: 40px 0 0;
+    width: auto;
+    align-items: center;
+  }
+}
+
+.navigation-groups__column-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100%;
+
+  @media (max-width: 768px) {
+    align-items: center;
+  }
+}
+
+.navigation-groups__heading {
+  color: var(--text-color-title);
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.navigation-groups__entries-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  list-style: none;
+}
+
+.navigation-groups__entry {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 40px;
+  font-size: 15px;
+
+  @media (max-width: 768px) {
+    justify-content: center;
+  }
+}
+
+.navigation-groups__entry-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+.navigation-groups__entry-link,
+.navigation-groups__entry-platform-link {
+  text-decoration: none;
+  transition: color 0.3s ease;
+  text-wrap: nowrap;
+}
+
+.navigation-groups__entry-link:hover {
+  color: var(--accent-color-one);
+}
+
+.navigation-groups__entry-platform-link {
+  font-size: 16px;
+  color: var(--text-color-title);
+  font-weight: 400;
+}
+
+.navigation-groups__entry-platform-link:hover {
+  color: var(--music-genre-hover-color);
+}
+
+.page-footer__horizontal-rule {
+  height: 1px;
+  /*border-bottom: 1px solid rgba(255, 255, 255, 0.2);*/
+  border-bottom: 1px solid var(--divider-line-color);
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.page-footer__legal-notice {
+  margin-top: 20px;
+  font-size: 15px;
+  color: var(--text-color-primary);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+
+  @media (max-width: 768px) {
+    align-items: center;
+    flex-direction: column;
+  }
+}

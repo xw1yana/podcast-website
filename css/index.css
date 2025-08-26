@@ -1,0 +1,21 @@
+@import 'global.css';
+@import "global.nav.css";                   /* Hrabar Yana */
+@import 'index.header-hero.css';            /* Hrabar Yana */
+/*  insert popular songs    */
+/*  insert top 10           */
+/*  insert tune /about us   */
+@import 'index.popular-songs.css';          /* Remeniuk Viktoriia */
+@import 'index.popular-music.css';          /* Oleksandra Honcharova */
+@import 'index.top-music.css';              /* Maksym Oleksiv */
+@import 'index.features-with-icon.css';     /* Andrii Kovalyk */
+@import 'index.latest-podcasts.css';        /* Maksym Ozirskyi */
+@import 'index.listen.css';                 /* Oleksandr Braiko */
+@import 'index.results.css';                /* Oleksandr Braiko & Pavlo Demchenko */
+@import 'index.join-us.css';                /* Oleksandra Honcharova */ 
+@import "index.program.partial.css";        /* Vladyslava Shcherbyna */
+@import 'index.popular-artists.css';        /* Oleksandr Braiko */
+@import 'index.we-love-music.css';          /* Oleksandr Braiko */
+@import 'index.testimonials.css';           /* Petykchachnyi Olexii */
+@import 'index.more-lives.css';             /* Oleksandr Braiko */
+@import 'index.news-articles.css';          /* Yana Baidatska */
+@import "global.footer.css";                /* Dmytro Chornobryvets */

@@ -1,0 +1,173 @@
+/*  by Oleksandr Braiko */
+
+.popular-artists__container {
+    max-width: 1170px;
+    margin: auto;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    padding: 0;
+
+    .popular-artists__title {
+        font-family: var(--font-title);
+        font-size: 38px;
+        color: var(--text-color-title);
+        padding: 0 32px;
+    }
+
+    .popular-artists__divider {
+        padding: 0 32px;
+        margin: 0;
+    }
+
+    .popular-artists__carousel__wrapper {
+        display: flex;
+        flex-direction: row;
+
+        .popular-artists__carousel-button {
+            background: none;
+            border: none;
+            color: var(--text-color-secondary);
+            font-size: 36px;
+            cursor: pointer;
+            padding: 0;
+            transition: color 0.3s;
+            z-index: 2;
+
+            .popular-artists__carousel-button-icon--prev {
+                color: var(--text-color-secondary);
+                border-radius: 50%;
+                width: 30px;
+                height: 30px;
+                transition: color 0.3s;
+                transform: scaleX(-1);
+
+                &:hover {
+                    color: var(--text-color-title);
+                }
+
+                @media (max-width: 1024px) {
+                    position: relative;
+                    left: 10px;
+                    width: 30px;
+                    height: 30px;
+                    padding: 5px;
+                    background-color: rgba(0, 0, 0, 0.8);
+                }
+            }
+
+            .popular-artists__carousel-button-icon--next {
+                color: var(--text-color-secondary);
+                transform: scaleX(1);
+                border-radius: 50%;
+                width: 30px;
+                height: 30px;
+                transition: color 0.3s;
+
+                &:hover {
+                    color: var(--text-color-title);
+                }
+
+                @media (max-width: 1024px) {
+                    position: relative;
+                    right: 10px;
+                    width: 30px;
+                    height: 30px;
+                    padding: 5px;
+                    background-color: var(--carousel-button-bg-color);
+                }
+            }
+        }
+
+        .popular-artists__carousel {
+            display: flex;
+            flex-direction: row;
+            position: relative;
+            overflow: hidden;
+            margin: 50px auto 0;
+            width: 94%;
+
+            .popular-artists__carousel__list {
+                max-width: 100%;
+                display: flex;
+                flex-direction: row;
+                transition: transform 0.5s ease-in-out;
+
+                .popular-artists__carousel__item {
+                    padding: 0 15px;
+                    margin: 0;
+                    display: inline-block;
+                    min-width: 260px;
+                    flex: 0 0 100%;
+
+                    @media (min-width: 768px) {
+                        flex: 0 0 50%;
+                    }
+
+                    @media (min-width: 1024px) {
+                        flex: 0 0 25%;
+                    }
+
+                    .item__image-block {
+
+                        .item__image {
+                            object-fit: cover;
+                            aspect-ratio: 1;
+                        }
+                    }
+
+                    .item__info {
+
+                        .item__info__name {
+                            margin: 20px 0 0 0;
+                            font-size: 24px;
+                            color: var(--text-color-title);
+                            font-weight: bold;
+                        }
+
+                        .item__info__line {
+                            display: block;
+                            width: 37px;
+                            height: 34px;
+
+                            .line-one {
+                                position: relative;
+                                top: 15px;
+                                height: 4px;
+                                background-color: var(--accent-color-one);
+                            }
+
+                            .line-two {
+                                position: relative;
+                                top: 15px;
+                                height: 4px;
+                                background-color: var(--accent-color-two);
+                            }
+
+                            .line-three {
+                                position: relative;
+                                top: 15px;
+                                height: 4px;
+                                background-color: var(--accent-color-three);
+                            }
+
+                            .line-four {
+                                position: relative;
+                                top: 15px;
+                                height: 4px;
+                                background-color: var(--accent-color-four);
+                            }
+                        }
+
+                        .item__info__location {
+                            height: 34px;
+                            font-size: 16px;
+                            color: var(--text-color-secondary);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,123 @@
+/*
+  Global Base Styles
+  ------------------
+
+  ✅ Підключення шрифтів та кольору тексту:
+     - 'Noto Sans' — основний шрифт для тексту
+     - 'Righteous' — декоративний шрифт для заголовків
+
+     - '#ffffff' — основний колір заголовків
+     - '#dbdbdb' - колір підзаголовків
+     - '#cccccc' - колір загального тексту
+     - всі кольори в змінних нижче
+     - якщо зустрічаєте свій унікальний колір - створюєте нову змінну
+
+  ✅ Стартовий Reset:
+     - Обнуляє margin та padding для всіх елементів і псевдоелементів
+     - Встановлює box-sizing: border-box для передбачуваного розміру блоків
+
+  ✅ Додаткові базові стилі:
+     - Плавний скрол (scroll-behavior: smooth) для якорів
+     - Видалення стандартних маркерів у списках (ul, ol)
+     - Відключення підкреслення у посиланнях + спадкування кольору
+     - Зображення завжди адаптивні, не виходять за межі контейнера
+
+  ✅ Статичний фон усіх сторінок
+
+     !!!!!  Усі, хто додає нові CSS-властивості, обов’язково залишайте коментар:
+          - Що саме робить ця властивість
+          - Навіщо вона потрібна (особливо, якщо це щось неочевидне)
+     !!!!!
+*/
+
+/* Підключення шрифтів: Righteous, NotoSans */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Righteous&display=swap");
+
+/* Стартовий Reset */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --accent-color-one: #e100ff;
+    --accent-color-two: #7f00ff;
+    --accent-color-three: #FF7433;
+    --accent-color-four: #4858F9;
+
+    --text-color-title: #ffffff; /*rgb(255, 255, 255)*/
+    --text-color-primary: #dbdbdb; /*rgb(219, 219, 219)*/
+    --text-color-secondary: #cccccc; /*rgb(204, 204, 204)*/
+    --text-shadow-color: rgba(0, 0, 0, 0.7);
+
+    --font-title: 'Righteous', sans-serif;
+    --font-regular: 'Noto Sans', sans-serif;
+
+    --icon-bg-normal-color: #9500FF;
+    --icon-bg-hover-color: #B230FF;
+
+    --music-genre-hover-color: #fe226a;
+
+    --body-bg-solid: rgb(26, 26, 41);
+    --body-bg-solid-dark: rgb(19, 19, 31);
+    --body-bg-gradient-filler90: rgba(26, 26, 41, 0.9);
+    --body-bg-gradient-filler50: rgba(26, 26, 41, 0.5);
+    --header-burger-icon-bg-color: rgb(255, 255, 255);
+    --hero-bg-filter-one: rgba(0, 0, 0, 0.5);
+    --hero-bg-filter-two: rgba(26, 26, 26, 0.7);
+    --carousel-button-bg-color: rgba(0, 0, 0, 0.8);
+    --podcast-card-bg-color: #2c2b48;
+
+    --divider-line-color: #333333;
+
+    --feature-element-bg-color: #2b2b48;     /*rgb(43, 43, 72)*/
+    --feature-element-sub-color: #25253d;
+}
+
+/* Плавні анімації по замовчуванню */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Видалити спискові стилі */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Видалити підкреслення з посилань */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Зображення адаптивні */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/*статичний background який однаковий для всіх сторінок*/
+body {
+    background-color: var(--body-bg-solid);
+    background-image: linear-gradient(
+            var(--body-bg-gradient-filler90),
+            var(--body-bg-gradient-filler90)),
+    url("../img/bg-image.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*-----------------------------------------------------*/
+    color: var(--text-color-secondary);
+    font-family: var(--font-regular);
+}
+
+/* клас який обмежує ширину контентної частини*/
+.content-container {
+    max-width: 1200px;
+}

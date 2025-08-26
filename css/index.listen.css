@@ -1,0 +1,104 @@
+/* Oleksandr Braiko */
+
+.listen__container {
+    min-height: 490px;
+    max-height: 650px;
+    width: 100%;
+    background: linear-gradient(0deg,
+    var(--hero-bg-filter-two),
+    var(--hero-bg-filter-two)),
+    url("../img/index/listen/listen-djs-bg.png") no-repeat 47% 100%;
+    background-size: cover;
+
+    .listen__container-wrapper {
+        padding: 160px 0;
+
+        @media (max-width: 425px) {
+            padding: 80px 0;
+        }
+
+        .listen__middle-container {
+
+            .listen__middle-wrapper {
+                justify-content: center;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+
+                .listen__header {
+                    font-size: 12px;
+                    color: var(--accent-color-three);
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    letter-spacing: 1px;
+                }
+
+                .listen__title-container {
+                    padding:0 24px;
+
+                    .listen__title-text {
+                        font-family: var(--font-title);
+                        font-size: 56px;
+                        margin: 20px 0 0 0;
+                        font-weight: normal;
+
+                        @media (min-width: 1024px) {
+                            font-size: 68px;
+                        }
+                    }
+                }
+
+                .listen__text {
+                    padding:0 24px;
+                    margin: 40px 0 0 0;
+                    color: var(--text-color-secondary);
+                    font-size: 19px;
+
+                }
+
+                .listen__link-container {
+                    margin: 40px 0 0 0;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+
+                    .listen__link-button {
+                        padding-top: 9px;
+                        width: 180px;
+                        height: 42px;
+                        border-radius: 21px;
+                        color: var(--text-color-title);
+                        background-image: linear-gradient(
+                                45deg,
+                                var(--accent-color-one),
+                                var(--accent-color-four)
+                        );
+
+                        &:hover {
+                            background-image: linear-gradient(
+                                    45deg,
+                                    var(--accent-color-four),
+                                    var(--accent-color-one)
+                            );
+                            cursor: pointer;
+                        }
+
+                        .listen__link-icon {
+                            width: 24px;
+                            height: 24px;
+                            display: inline;
+                            margin: 0 0 -7px 0;
+                        }
+
+                        .listen__link-text {
+                            text-transform: capitalize;
+                            font-weight: bold;
+                            font-size: 14px;
+                            letter-spacing: 1px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

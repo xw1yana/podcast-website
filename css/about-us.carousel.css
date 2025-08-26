@@ -1,0 +1,92 @@
+.timeline-carousel {
+	background-color: var(--body-bg-solid-dark);
+	padding: 60px 20px;
+	color: white;
+	font-family: var(--font-regular);
+	overflow: hidden;
+}
+
+.carousel-wrapper {
+	max-width: 1200px;
+	margin: auto;
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+
+.carousel-viewport {
+	overflow: hidden;
+	width: 100%;
+}
+
+.carousel {
+	display: flex;
+	transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+	min-width: 300px;
+	max-width: 300px;
+	margin: 0 40px;
+	flex-shrink: 0;
+}
+
+.carousel-item h2 {
+	font-family: var(--font-title);
+	font-weight: normal;
+	font-size: 36px;
+	margin-bottom: 10px;
+}
+
+.underline {
+	width: 30px;
+	height: 4px;
+	margin-bottom: 15px;
+}
+
+.purple {
+	background-color: var(--accent-color-one);
+}
+
+.orange {
+	background-color: var(--accent-color-three);
+}
+
+.blue {
+	background-color: var(--accent-color-four);
+}
+
+.carousel-item p {
+	font-size: 16px;
+	color: var(--text-color-secondary);
+}
+
+.carousel-btn {
+	background: none;
+	border: none;
+	color: var(--text-color-secondary);
+	font-size: 36px;
+	cursor: pointer;
+	padding: 10px;
+	transition: color 0.3s;
+	z-index: 10;
+}
+
+.carousel-btn:hover {
+	color: var(--text-color-title);
+}
+
+@media (max-width: 768px) {
+	.carousel-item {
+		min-width: 260px;
+		margin: 0 20px;
+	}
+
+	.carousel-item h2 {
+		font-size: 28px;
+	}
+
+	.carousel-btn {
+		font-size: 28px;
+	}
+}

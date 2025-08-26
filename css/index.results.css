@@ -1,0 +1,117 @@
+/* Pavlo Demchenko & Oleksandr Braiko */
+
+.results__container {
+    margin: 120px auto 0;
+    max-width: 1200px;
+
+    .results__wrapper {
+        padding: 0 20px;
+        display: flex;
+        flex-direction: row;
+
+        @media (max-width: 1280px) {
+            padding: 0;
+        }
+
+        @media (max-width: 767px) {
+            flex-direction: column;
+        }
+
+        .results__header-column {
+            display: flex;
+            flex-direction: column;
+            flex: 0 0 50%;
+            padding: 0 30px;
+
+            .results__title-top {
+                font-size: 12px;
+                color: var(--text-color-primary);
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                font-weight: bold;
+            }
+
+            .results__title {
+                margin: 20px 0 0 0;
+                font-family: var(--font-title);
+                font-size: 38px;
+                color: var(--text-color-title);
+                font-weight: normal;
+
+                @media (max-width: 767px) {
+                    font-size: 30px;
+                }
+            }
+
+            .results__subtitle {
+                margin: 25px 0 0 0;
+                font-size: 19px;
+                color: var(--text-color-secondary);
+            }
+
+            .results__image-wrapper {
+                margin: 25px 0 0 0;
+
+                .results__image {
+                    width: 100%;
+                }
+            }
+        }
+
+        .results__stats-column {
+            display: flex;
+            flex-wrap: wrap;
+            flex: 0 0 25%;
+            padding: 0 30px;
+            flex-direction: column;
+            margin: 0;
+
+            @media (max-width: 890px) {
+                padding: 0 15px;
+            }
+
+            .results__stat-item {
+                text-align: center;
+                padding: 0 0 50px;
+
+                @media (max-width: 767px) {
+                    margin: 60px 0 0 0;
+                    padding: 0;
+                }
+
+                .results__stat-number {
+                    font-family: var(--font-title);
+                    font-size: 68px;
+                    color: var(--text-color-title);
+                    padding: 0;
+                    margin: 0;
+
+                    @media (max-width: 767px) {
+                        font-size: 56px;
+                    }
+                }
+
+                .results__highlight--one {
+                    color: var(--accent-color-one);
+                }
+
+                .results__highlight--two {
+                    color: var(--accent-color-two);
+                }
+
+                .results__stat-title {
+                    margin: 10px 0 0 0;
+                    font-size: 15px;
+                    color: var(--text-color-title);
+                    font-weight: bold;
+                }
+
+                .results__stat-description {
+                    margin: 20px 0 0 0;
+                    font-size: 16px;
+                    color: var(--text-color-secondary);
+                }
+            }
+        }
+    }
+}

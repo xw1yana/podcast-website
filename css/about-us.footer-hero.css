@@ -1,0 +1,51 @@
+/* Pavlo Demchenko & Oleksandr Braiko */
+
+.about-us__footer-hero__container {
+    margin:auto;
+
+    .about-us__footer-hero__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 55px 0 120px 0;
+        padding: 0 24px;
+
+        .about-us__footer-hero__icon {
+            width: 50px;
+            height: 50px;
+        }
+
+        .about-us__footer-hero__title {
+            font-size: 38px;
+            color: var(--text-color-title);
+            font-family: var(--font-title);
+            font-weight: normal;
+            margin: 20px 0 0 0;
+
+            @media (max-width: 768px) {
+                font-size: 34px;
+            }
+
+            @media (max-width: 425px) {
+                font-size: 30px;
+            }
+        }
+
+        .about-us__footer-hero__text {
+            font-size: 21px;
+            color: var(--text-color-primary);
+            margin: 25px 0 0 0;
+
+            @media (max-width: 425px) {
+                font-size: 18px;
+            }
+
+            .about-us__footer-hero__accent {
+                color: var(--accent-color-three);
+                font-weight: bold;
+            }
+        }
+
+    }
+}

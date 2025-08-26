@@ -1,0 +1,27 @@
+[
+  {
+    "name": "John Echo",
+    "imagePath": "img/index/popular-artists/guitar-boy-blue.webp",
+    "location": "New York"
+  },
+  {
+    "name": "Electric Mirage",
+    "imagePath": "img/index/popular-artists/hustler-graffiti.webp",
+    "location": "Puerto Rico"
+  },
+  {
+    "name": "Serenade",
+    "imagePath": "img/index/popular-artists/girls-orange-blue.webp",
+    "location": "San Francisco"
+  },
+  {
+    "name": "Hurricane",
+    "imagePath": "img/index/popular-artists/drummer-orange.webp",
+    "location": "Vienna"
+  },
+  {
+    "name": "Velvet Skyline",
+    "imagePath": "img/index/popular-artists/girl-red.webp",
+    "location": "Washington"
+  }
+]
