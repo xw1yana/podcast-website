@@ -1,9 +1,9 @@
 @import "global.css";
-@import "global.nav.css";                   /* Hrabar Yana   */
-@import "about-us.header-hero.css";         /* Hrabar Yana   */
-@import "about-us.vision-mission.css";      /* Mark Kozhydlo */
-@import "about-us.join-community.css";      /* Mark Kozhydlo */
-@import "about-us.carousel.css";            /* Mark Kozhydlo */
-@import "about-us.team.css";                /* Pavlo Demchenko & Oleksandr Braiko */
-@import "about-us.footer-hero.css";         /* Pavlo Demchenko & Oleksandr Braiko */
-@import "global.footer.css";                /* Dmytro Chornobryvets */
+@import "global.nav.css";
+@import "about-us.header-hero.css";
+@import "about-us.vision-mission.css";
+@import "about-us.join-community.css";
+@import "about-us.carousel.css";
+@import "about-us.team.css";
+@import "about-us.footer-hero.css";
+@import "global.footer.css";

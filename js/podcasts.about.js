@@ -1,5 +1,3 @@
-// by Oleksandr Braiko
-
 const response = await fetch ('./api/podcasts.json');
 const podcasts = await response.json();
 

@@ -1,5 +1,3 @@
-// by Oleksandr Braiko
-
 const response = await fetch ('./api/popular-artists.json');
 const popularArtists = await response.json();
 

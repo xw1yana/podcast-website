@@ -1,5 +1,3 @@
-/* Pavlo Demchenko & Oleksandr Braiko */
-
 const response = await fetch ('./api/team.json');
 const teamList = await response.json();
 

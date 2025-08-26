@@ -1,8 +1,8 @@
 function init() {
-    import('./index.popular-artists.js');      /* by Oleksandr Braiko */
+    import('./index.popular-artists.js');
     import('./index.testimonials.js');
     import('./index.popular-music-carousel.js');
-    import('./index.popular-songs.js'); /* by Viktoriia Remeniuk */
+    import('./index.popular-songs.js');
     import('./global-header-toggle.js')
 }
 

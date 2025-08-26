@@ -1,15 +1,182 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="462b5c12-aed1-440a-bd42-33c37185f06c" name="Changes" comment="" />
+    <list default="true" id="462b5c12-aed1-440a-bd42-33c37185f06c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/podcasts-website.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about-us.carousel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about-us.footer-hero.partial.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about-us.header-hero.partial.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about-us.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about-us.join-community.partial.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about-us.team.partial.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about-us.vision-mission.partial.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/podcasts.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/popular-artists.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/popular-songs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/team.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contacts.header-hero.partial.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contacts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contacts.register.partial.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/about-us.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/about-us.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/about-us.footer-hero.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/about-us.header-hero.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/about-us.join-community.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/about-us.team.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/about-us.vision-mission.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/contacts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/contacts.header-hero.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/contacts.register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/global.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/global.footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/global.nav.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/index.features-with-icon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/index.header-hero.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/index.join-us.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/index.latest-podcasts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/index.listen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/index.more-lives.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/index.news-articles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/index.popular-artists.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/index.popular-music.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/index.popular-songs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/index.program.partial.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/index.results.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/index.testimonials.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/index.top-music.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/index.we-love-music.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/podcasts.about.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/podcasts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/podcasts.header-hero.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/podcasts.podcast-block.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/podcasts.radio-app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/global.footer.partial.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/global.nav.partial.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/about-us/016-microphone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/about-us/team/amanda-poe.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/about-us/team/diana-ferrington.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/about-us/team/eric-maddoc.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/about-us/team/harry-jones.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/about-us/team/jessica-errington.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bg-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/contacts-icon/adress-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/contacts-icon/phone-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/contacts-icon/play-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/contacts-icon/podcasts-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/contacts-icon/soundcloud-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/contacts-icon/spotify-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/favicon-96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/features-icon/best-music-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/features-icon/fantastic-hosts-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/features-icon/interesting-podcast-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/features-icon/web-mobile-app-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/index/about-echowave/line-graphic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/index/about-echowave/microphone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/index/about-us/about-us-join-the-community-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/index/about-us/about-us.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/index/about-us/listen-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/index/header/echowave-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/index/header/podcasts-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/index/header/soundcloud-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/index/header/spotify-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/index/header/youtube-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/index/join-us-background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/index/listen/listen-djs-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/index/more-lives/more-lives-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/index/popular-artists/drummer-orange.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/index/popular-artists/girl-red.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/index/popular-artists/girls-orange-blue.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/index/popular-artists/guitar-boy-blue.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/index/popular-artists/hustler-graffiti.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/index/popular-music-carousel/popular-songs-carousel-dream-pop.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/index/popular-music-carousel/popular-songs-carousel-jazz.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/index/popular-music-carousel/popular-songs-carousel-rap.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/index/popular-music-carousel/popular-songs-carousel-soul.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/index/popular-music-carousel/popular-songs-carousel-techno.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/index/results/results-mic-woman.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/latest-podcasts/boy-with-microphone.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/latest-podcasts/girl-with-microphone.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/latest-podcasts/icons/calendar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/latest-podcasts/icons/clock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/latest-podcasts/icons/headphones.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/latest-podcasts/microphone-record-sound.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/latest-podcasts/two-girls-speak.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/news-articles/lady-podcast-host.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/news-articles/lady-with-guitar-singing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/news-articles/man-in-headphones.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/podcasts-page/app-store-badge.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/podcasts-page/blocks/podcast-artistry-unveiled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/podcasts-page/blocks/podcast-mind-matters.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/podcasts-page/blocks/podcast-mindful-musings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/podcasts-page/google-play-badge.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/podcasts-page/podcasts-radio-app-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/popular-songs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/popular-songs/David Guetta.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/popular-songs/Jack Welsh.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/popular-songs/Luna Solitaire.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/testimonials/emmab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/testimonials/emmat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/testimonials/john.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/testimonials/lucas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.features-with-icon.partial.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.header-hero.partial.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.join-us.partial.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.latest-podcasts.partial.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.listen.partial.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.more-lives.partial.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.news-articles.partial.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.popular-artists.partial.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.popular-music-carousel.partial.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.popular-songs.partial.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.program.partial.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.results.partial.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.testimonials.partial.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.top-by-genre.partial.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.we-love-music.partial.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/about-us.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/about-us.team.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/contacts.header-hero.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/contacts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/contacts.register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/global-header-toggle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/index.popular-artists.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/index.popular-music-carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/index.popular-songs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/index.popular-songs.script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/index.testimonials.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/podcasts.about.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/podcasts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/podcasts.about.partial.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/podcasts.header-hero.partial.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/podcasts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/podcasts.podcast-blocks.partial.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/podcasts.radio-app.partial.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="31SwSHvG1A3et9xnNsRPJ1ITokV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -18,9 +185,125 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/hraba/PycharmProjects/website html+css",
+    "run.code.analysis.last.selected.profile": "aDefault"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hraba\PycharmProjects\website html+css" />
+      <recent name="C:\Users\hraba\PycharmProjects\website html+css\img" />
+      <recent name="C:\Users\hraba\PycharmProjects\website html+css\img\index" />
+      <recent name="C:\Users\hraba\PycharmProjects\website html+css\img\features-icon" />
+      <recent name="C:\Users\hraba\PycharmProjects\website html+css\img\contacts-icon" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="podcasts-website" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="podcasts-website" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Docutils task">
+      <module name="podcasts-website" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Sphinx task">
+      <module name="podcasts-website" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Autodetect">
+      <module name="podcasts-website" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="podcasts-website" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

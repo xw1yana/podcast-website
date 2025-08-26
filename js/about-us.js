@@ -1,5 +1,5 @@
 function init() {
-    import('./about-us.team.js');      /* Pavlo Demchenko & Oleksandr Braiko */
+    import('./about-us.team.js');
 }
 
 const totalPartials = document.querySelectorAll('[hx-trigger="load"], [data-hx-trigger="load"]').length;

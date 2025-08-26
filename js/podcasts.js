@@ -1,5 +1,5 @@
 function init() {
-    import('./podcasts.about.js');      /* by Oleksandr Braiko */
+    import('./podcasts.about.js');
 }
 
 const totalPartials = document.querySelectorAll('[hx-trigger="load"], [data-hx-trigger="load"]').length;
